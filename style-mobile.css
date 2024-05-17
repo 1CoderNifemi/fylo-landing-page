@@ -1,0 +1,143 @@
+@media (max-width: 425px) {
+  h2 {
+    font-size: 1.6rem;
+    line-height: 1.3em;
+  }
+
+  nav {
+    height: 100px;
+    margin-block: 0px;
+
+    .nav_logo {
+      width: 95px;
+      display: flex;
+      align-items: center;
+
+      & img {
+        width: 100%;
+      }
+    }
+
+    .nav_links {
+      gap: 20px;
+      font-size: 0.8rem;
+    }
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    gap: 50px;
+
+    .hero_left,
+    .hero_right {
+      width: 100%;
+    }
+
+    .hero_left {
+      padding-right: 0px;
+      text-align: center;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .hero--action {
+      flex-direction: column;
+    }
+
+    .input-div,
+    .hero-btn {
+      width: 100%;
+    }
+  }
+
+  .section2 {
+    flex-direction: column-reverse;
+    background-image: url(images/bg-curve-mobile.svg);
+    background-size: 650% 100%;
+    gap: 90px;
+
+    .section2_left,
+    .section2_right {
+      width: 100%;
+    }
+
+    .section2_left {
+      align-items: center;
+      gap: 30px;
+
+      & h3 {
+        font-size: 1.2rem;
+      }
+
+      & p {
+        font-size: 0.82rem;
+        opacity: 0.8;
+      }
+
+      .see-fylo-link {
+        align-self: center;
+        margin-top: 20px;
+        font-size: 0.95rem;
+      }
+
+      .testimonial-card {
+        margin-top: 20px;
+        width: fit-content;
+
+        & p {
+          max-width: 278px;
+          min-width: 100%;
+          font-size: 0.77rem;
+        }
+      }
+    }
+  }
+
+  .section3 {
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 70px;
+
+    .section3_left,
+    .section3_right {
+      width: 100%;
+    }
+
+    .section3_left {
+      align-items: center;
+
+      & h3 {
+        font-size: 1.5rem;
+      }
+
+      & p {
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+      }
+    }
+
+    .section3_right {
+      align-items: center;
+
+      .input-div,
+      & button {
+        width: 90%;
+      }
+    }
+  }
+
+  footer {
+    padding-inline: 10%;
+    gap: 40px;
+  }
+
+  .socials-div {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .icons {
+    align-self: center;
+  }
+}
