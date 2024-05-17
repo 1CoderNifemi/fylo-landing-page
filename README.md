@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) - you can checkout the actual design in the design folder to see how close I got to it.
+- Live Site URL: [Add live site URL here](https://1codernifemi.github.io/fylo-landing-page/) - you can checkout the actual design in the design folder to see how close I got to it.
 
 ## My process
 
